@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	  <DisableTransitiveProjectReferences>true</DisableTransitiveProjectReferences>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shortener.BL\Shortener.BL.csproj" />
+    <ProjectReference Include="..\Shortener.Domain\Shortener.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
